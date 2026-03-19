@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#songs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.song-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;  /* empile les éléments */
+  justify-content: space-between; /* espace entre le contenu et l’audio */
+  height: 320px;  /* fixe la hauteur de toutes les cartes */
+  box-sizing: border-box;
+}
+
+.song-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.song-card h3, .song-card p {
+  margin: 5px 0;
+  overflow: hidden;   
+  text-overflow: ellipsis;  
+  white-space: nowrap; 
+  cursor: default; /* optionnel, montre que tu peux survoler */
+}
+
+.song-card audio {
+  width: 100%;
+  box-sizing: border-box;
+}
