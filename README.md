@@ -1,9 +1,4 @@
 🎵 Top 10 Musiques - Dockerized Full Stack Project
-https://img.shields.io/badge/Docker-Container-blue
-https://img.shields.io/badge/Node.js-Backend-green
-https://img.shields.io/badge/MongoDB-Database-brightgreen
-https://img.shields.io/badge/Frontend-HTML%252FCSS%252FJS-orange
-https://img.shields.io/badge/License-MIT-lightgrey
 
 🔹 Overview
 Top 10 Musiques is a fully containerized full-stack application that displays a list of the top 10 songs, each with its cover image, artist name, and an integrated audio player.
